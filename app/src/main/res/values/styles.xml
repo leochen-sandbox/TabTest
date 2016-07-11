@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tab_icon">
+        <item name="android:layout_width">@dimen/tab_icon</item>
+        <item name="android:layout_height">@dimen/tab_icon</item>
+        <item name="android:padding">@dimen/tab_margin_half_horizontal</item>
+    </style>
+
+    <style name="tab_icon_center">
+        <item name="android:layout_width">@dimen/tab_icon</item>
+        <item name="android:layout_height">@dimen/tab_icon</item>
+        <item name="android:layout_marginLeft">@dimen/tab_margin_half_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/tab_margin_half_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/tab_margin_half_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/tab_margin_half_horizontal</item>
+    </style>
+
+</resources>

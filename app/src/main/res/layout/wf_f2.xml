@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wf_f2"
+    style="@style/match_parent">
+
+    <Button
+        android:id="@+id/btn_2"
+        android:text="BTN2"
+        style="@style/match_parent" />
+
+</RelativeLayout>

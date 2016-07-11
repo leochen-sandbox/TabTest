@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_parent"
+    tools:context="demo.tab.act.Main">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:stretchColumns="*"
+        style="@style/listitem" >
+        <TableRow
+            android:id="@+id/tab_leader_row"
+            style="@style/listitem"
+            android:gravity="center">
+            <LinearLayout
+                android:id="@+id/tab_leader"
+                android:layout_span="0"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_1"
+                    android:src="@drawable/icon_1"
+                    style="@style/tab_icon_center"/>
+                <ImageView
+                    android:id="@+id/iv_2"
+                    android:src="@drawable/icon_2"
+                    style="@style/tab_icon_center"/>
+                <ImageView
+                    android:id="@+id/iv_3"
+                    android:src="@drawable/icon_3"
+                    style="@style/tab_icon_center"/>
+                <ImageView
+                    android:id="@+id/iv_4"
+                    android:src="@drawable/icon_2"
+                    style="@style/tab_icon_center"/>
+                <ImageView
+                    android:id="@+id/iv_5"
+                    android:src="@drawable/icon_1"
+                    style="@style/tab_icon_center"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_item_row"
+            style="@style/fill_parent"
+            android:gravity="center">
+            <FrameLayout
+                android:id="@+id/tab_item"
+                style="@style/fill_parent"
+                android:layout_gravity="center">
+                <include layout="@layout/wf_f1" />
+                <include layout="@layout/wf_f2" />
+                <include layout="@layout/wf_f3" />
+                <include layout="@layout/wf_f2" />
+                <include layout="@layout/wf_f1" />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
